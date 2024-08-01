@@ -8,8 +8,6 @@ Code of [CVPR 2024] "Semantics-aware Motion Retargeting with Vision-Language Mod
 
 ## Environment
 ```bash
-conda create -n SMT python=3.8
-conda activate SMT
 conda create -f environment.yaml
 ```
 Add extra dependence in libs
