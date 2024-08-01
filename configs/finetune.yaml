@@ -1,0 +1,19 @@
+DATASET:
+  FINETUNE:
+    SOURCE_NAME: "Y bot"
+    SOURCE_PATH: "./dataset/Mixamo/finetune"
+    TARGET_NAME: "Aj"
+    TARGET_PATH: "./dataset/Mixamo/test"
+MODEL:
+  NAME: "UnifiedMTNet"
+  CHANNELS: 9
+  DIM: 3
+  CHECKPOINT: "./saved/SMT/best_model.pth"
+TRAIN:
+  SAVE: "./saved/SMT_finetune/"
+  LOG: "./saved/log/"
+  LOG_INTERVAL: 100
+  HYPER:
+    EPOCHS: 100
+    BATCH_SIZE: 4
+    LEARNING_RATE: 0.0001

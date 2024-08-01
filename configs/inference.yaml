@@ -1,0 +1,9 @@
+MODEL:
+  NAME: "UnifiedMTNet"
+  CHECKPOINT: "./saved/models/best_model.pth"
+  CHANNELS: 9
+  DIM: 3
+INFERENCE:
+  SAVE: "./saved/inference"
+  SOURCE: './data/intra/Y bot/Baseball Pitching.bvh'
+  TARGET: './data/intra/Kaya/Baseball Pitching.bvh'

@@ -1,0 +1,18 @@
+DATASET:
+  TRAIN:
+    SOURCE_NAME: "StaticDataset"
+    SOURCE_PATH: "./dataset/Mixamo/train"
+    TARGET_NAME: "MixamoTarget"
+    TARGET_PATH: "./dataset/Mixamo/train"
+MODEL:
+  NAME: "UnifiedMTNet"
+  CHANNELS: 9
+  DIM: 3
+TRAIN:
+  SAVE: "./saved/SMT/"
+  LOG: "./saved/log/"
+  LOG_INTERVAL: 2000
+  HYPER:
+    EPOCHS: 100
+    BATCH_SIZE: 16
+    LEARNING_RATE: 0.0003

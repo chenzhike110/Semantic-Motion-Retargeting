@@ -1,0 +1,6 @@
+[submodule "libs/PyMO"]
+	path = libs/PyMO
+	url = https://github.com/omimo/PyMO.git
+[submodule "libs/sdf"]
+	path = libs/sdf
+	url = https://github.com/chenzhike110/DiffSDF.git
