@@ -54,6 +54,12 @@ blender -P visualize.py -- --render_engine eevee\
                         --frame_end 60 --fps 30
 ```
 
+## ToDo
+- [x] code update
+- [ ] preprocessed data
+- [ ] checkpoint trained with BLIP
+- [ ] checkpoint trained with LLaVA
+
 ## Citation
 
 ```
